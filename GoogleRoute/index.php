@@ -8,7 +8,7 @@
 
         <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
 
-        <!-- Import for google map - Begin -->        
+        <!-- Import for google map -->        
         <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
         <script type="text/javascript" src="js/calcola_percorso.js">
         </script>
