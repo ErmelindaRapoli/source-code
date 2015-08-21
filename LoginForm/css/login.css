@@ -1,0 +1,125 @@
+.main-title
+{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 40px 0;
+    text-align: center;
+}
+#login-form
+{
+    background: rgba(255,255,255,.5);
+    margin: auto;
+    padding: 30px;
+    width: 400px;
+    margin-top: 5%;
+}
+.form-control
+{
+    background: #fff;
+    border: 1px solid #ccc;
+    height: 48px;
+    line-height: 48px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.form-control span.icon
+{
+    background: #eee;
+    display: inline-block;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    width: 48px;
+}
+.form-control span.icon i
+{
+    color: #ccc;
+    font-size: 24px;
+    text-shadow: 1px 1px 0 #fff;
+    vertical-align: middle;
+}
+.form-control input[type="text"], .form-control input[type="password"]
+{
+    background: #fff;
+    border: none;
+    font-size: 14px;
+    height: 26px;
+    line-height: 26px;
+    margin: 0;
+    outline: none;
+    padding: 0px 10px;
+    vertical-align: middle;
+    width: 321px;
+    font-family: 'Noto Sans', sans-serif;
+    box-sizing: content-box;
+}
+.form-control.remember{
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+}
+.form-control input[type="checkbox"]{
+    margin: 0;
+    position: relative;
+    top: 2px;
+}
+.submit
+{
+    border: none;
+    margin-bottom: 0;
+}
+input[type="submit"]
+{
+    background: #F23D81;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: Oswald, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    height: 48px;
+    line-height: 48px;
+    outline: none;
+    width: 400px;
+}
+input[type="submit"]:hover
+{
+    background: #E8256E;
+}
+.login-footer
+{
+    margin-top: 10px;
+}
+.login-footer a
+{
+    color: #999;
+    text-decoration: none;
+}
+.login-footer a:hover
+{
+    color: #333;
+}
+.forgot-password
+{
+    float: left;
+}
+.sign-up
+{
+    float: right;
+}
+.message
+{
+    background: #ccc;
+    color: #fff;
+    display: none;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 10px;
+    position: absolute;
+    right: 0;
+    top: 11px;
+    white-space: nowrap;
+}
+.message.error
+{
+    background: #D12136;
+}
