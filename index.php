@@ -3,7 +3,7 @@
 // grab recaptcha library
 require_once "recaptchalib.php";
 // your secret key
-$secret = "6LfzvgcTAAAAAHDXlaxff2uJYN9CwncO4xku5eli";
+$secret = "EditHereYourSecretKey";
 // empty response
 $response = null;
 // check our secret key
@@ -40,7 +40,7 @@ and open the template in the editor.
                 <input type="email" id="email" name="email" placeholder="Your Email (required)" required style="width: 100%"/>
                 <textarea id="message" name="message"placeholder="Message (required)" required style="width: 100%"></textarea>
 
-                <div class="g-recaptcha" data-sitekey="6LfzvgcTAAAAAA7gP1MIb89F4NyKIDReRJE1FQSl"></div>
+                <div class="g-recaptcha" data-sitekey="EditHereYourPublicKey"></div>
 
                 <input type="submit" value="Send Message"  style="width: 100%"/>
 
